@@ -178,6 +178,7 @@ GEMINI_API_KEY=your-api-key-here
 ```python
 from google import genai
 from dotenv import load_dotenv
+import httpx
 import os
 
 # 加载环境变量
